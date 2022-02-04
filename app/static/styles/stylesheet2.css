@@ -1,0 +1,174 @@
+.adminlogin h3 {
+    text-align: center; }
+  
+  .adminlogin-wrapper {
+    padding: 5rem;
+    z-index: -9000;
+    background-position: right; }
+  
+  .adminlogin-col {
+    border-bottom: 0.15px solid black;
+    border-right: 0.15px solid black;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    height: 25rem;
+    box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75); }
+  
+  .studentlogin h3 {
+    text-align: center; }
+  
+  .studentlogin-wrapper {
+    border: 1px solid black;
+    border: dotted;
+    padding: 5rem;
+    z-index: -9000;
+    background-position: right; }
+  
+  .studentlogin-col {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    height: 25rem;
+    box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75); }
+  
+  .teacherlogin h3 {
+    text-align: center; }
+  
+  .teacherlogin-wrapper {
+    border: dotted;
+    padding: 5rem;
+    z-index: -9000;
+    background-position: right; }
+  
+  .teacherlogin-col {
+    border-radius: 1rem;
+    padding-top: 2rem;
+    height: 25rem;
+    box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 18px 20px 45px -17px rgba(0, 0, 0, 0.75); }
+  
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; }
+  
+  html {
+    font-size: 100%; }
+  
+  body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 1rem; }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:visited {
+    display: block; }
+  
+  .form-check-input {
+    background-color: white; }
+  
+  .form-check-input::after {
+    background-color: black; }
+  
+  .form-check-input:active {
+    background-color: white; }
+  
+  .wrapper-navabr .btn {
+    margin-right: 1rem; }
+  
+  .wrapper-navabr .btn:hover {
+    color: grey; }
+  
+  .wrapper-navabr .navbar-brand {
+    font-size: 1rem; }
+  
+  .wrapper-navabr .nav-link {
+    font-size: 1rem; }
+  
+  .adminFeaturedInfo {
+    font-size: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center; }
+    .adminFeaturedInfo .card {
+      padding: 1rem;
+      width: 18rem;
+      display: inline-block;
+      margin-right: 1rem; }
+    .adminFeaturedInfo .row {
+      width: 100%;
+      font-size: 1rem; }
+    .adminFeaturedInfo .dataTable .table {
+      width: 100%;
+      font-size: 60rem; }
+  
+  .addCourseButton {
+    position: absolute;
+    right: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem; }
+  
+  .addCourseCard .row {
+    margin-top: 2rem;
+    padding: 1rem; }
+  
+  .coursesRow {
+    margin-left: 4.5rem; }
+  
+  .landing {
+    background-image: url("./images/t4.jpg");
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: -9000; }
+    .landingWrapper-leftBox {
+      text-align: center;
+      padding-top: 1.5rem; }
+    .landingWrapper-rightArrow {
+      margin-top: 1rem;
+      height: 10rem;
+      color: black;
+      text-align: center;
+      border-radius: 1rem;
+      box-shadow: 7px 0px 39px 0px rgba(0, 0, 0, 0.41), inset;
+      -webkit-box-shadow: 7px 0px 39px 0px rgba(0, 0, 0, 0.41);
+      -moz-box-shadow: 7px 0px 39px 0px rgba(0, 0, 0, 0.41); }
+      .landingWrapper-rightArrow:not(:first-child) {
+        margin-top: 1rem; }
+      .landingWrapper-rightArrow:hover {
+        background-color: silver;
+        border: 1px solid black; }
+    .landingWrapper-rightArrow-top {
+      overflow-x: auto; }
+    .landingWrapper-rightArrow-center {
+      top: 12rem;
+      background-color: #E5E5E5; }
+    .landingWrapper-rightArrow-bottom {
+      top: 23.9rem;
+      background-color: #E5E5E5; }
+  
+  .addTeacherButton {
+    position: absolute;
+    right: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem; }
+  
+  .addTeacherCard .row {
+    margin-top: 2rem;
+    padding: 1rem; }
+  
+  .coursesRow {
+    margin-left: 4.5rem; }
+ 
+  
