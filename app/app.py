@@ -209,7 +209,7 @@ def login():
 
         #print(e,'EKKK')
         # return "error hello", 400
-        return render_template("500.html", error = str(e))
+        return render_template('login.html')
         
 
 
